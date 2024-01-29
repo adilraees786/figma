@@ -1,0 +1,511 @@
+body{
+    font-size: x-large;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+.BrandName{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    padding: 15px;
+    color: #FFF;
+}
+.main-home{
+    display: flex;
+    gap: 40px;
+    color: #FFF;
+   
+}
+.Home:hover{
+    border: 1px solid #FFF;
+    box-shadow: 5px 5px 30px #FFF;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    
+}
+
+
+.main-Login{
+    display: flex;
+    gap: 25px;
+}
+.button1 button{
+    border: none;
+    width: 150px;
+    height: 70px;
+    border-radius: 10px;
+    font-size: inherit;
+    background: none;
+    color: #FFF;
+}
+.button2 button{
+    width: 150px;
+    height: 70px;
+    border: none;
+    border-radius: 10px;
+    font-size: smaller;
+    background-color: #23a6f0;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+    font-family: sans-serif;
+}
+
+.us:hover{
+   box-shadow: 5px 5px 50px #737373 ;
+   background-color:black;
+   
+}
+.button2 img{
+    width: 30px;
+    height: 30px;
+}
+.mian-welcome{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+   
+    padding: 70px;
+}
+.Welcome{
+    color: #23a6f0;
+    font-size: xx-large;
+}
+.main-Selling{
+    font-family: system-ui;
+    font-size: xxx-large;
+    color: #FFF;
+}
+.main-know{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    font-family: system-ui;
+    font-size: smaller;
+    color: #FFF;
+}
+.main-button{
+    display: flex;
+    gap: 40px;
+}
+.button{
+    width: 215px;
+    height: 70px;
+    background-color: #23a6f0;
+    border: none;
+    border-radius: 10px;
+    color: #FFF;
+}
+.button:hover{
+    background-color: black;
+    box-shadow: 10px 10px 50px #FFF;
+}
+.button3{
+    width: 215px;
+    height: 70px;
+   background-color: #252B42;
+    border: 1px solid #23a6f0;
+    border-radius: 10px;
+    color: #23A6F0;
+}
+.button3:hover{
+    background-color: #23a6f0;
+    box-shadow: 10px 10px 50px #FFF;
+    color: white;
+}
+.mian-training{
+    display: flex;
+    justify-content: center;
+    padding: 70px;
+    gap: 100px;
+
+}
+.main-gradual{
+    width: 360px;
+    height: 325px;
+    border: 1px solid;
+    padding: 20px;
+    background-color: #FFF;
+}
+.main-gradual:hover{
+    background-color: #23a6f0;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px red;
+    color: white;
+}
+.coolicon{
+    width: 88px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background: #FFDCD1;
+    border-radius: 10px;
+}
+.coolicon img{
+    width: 36px;
+    height: 36px;
+}
+.coolicon1{
+    width: 88px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background:#B9EAA8;
+    border-radius: 10px;
+}
+.coolicon2{
+    width: 88px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background:#FFF;
+    border-radius: 10px;
+}
+.Courses{
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.border{
+    border: 1px solid red;
+    width: 115px;
+    height: 6px;
+    background-color: red;
+    border-radius: 22px;
+
+}
+.behaviour{
+    color: #737373;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+
+
+
+
+
+
+
+.main2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 725px;
+    gap: 50px;
+}
+.main-helps:hover{
+    background-color: black;
+    color:#FFF;
+    width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 20px 20px 60px sienna;
+}
+.div{
+    border: 1px solid red;
+    width: 155px;
+    height: 12px;
+    background-color: red;
+    border-radius: 10px;
+}
+.main-Packages{
+    width: 370px;
+    height: 100px;
+    font-size: 29px;
+}
+.Learn{
+    display: flex;
+    align-items: center;
+}
+.Learn img{
+    width: 30px;
+    height: 40px;
+}
+.resolve{
+    width: 555px;
+    height: 110px;
+}
+.col-md-6{
+    width: 100%;
+    height: 500px;
+}
+.col-md-6:hover{
+    background-color: #252B42;
+    border-radius: 20px;
+    box-shadow: 20px 20px 70px fuchsia;
+    padding: 10px;
+    border: 1px solid #252B42;
+}
+
+
+
+
+
+.main-3{
+    display: flex;
+    gap: 115px;
+    justify-content: center;
+}
+.Make{
+    text-align: justify;
+    display: flow;
+    margin-left: 250px
+}
+.Make h6{
+    color: #23A6F0;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.Make h2{
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.Make p{
+    color: #737373;
+    font-size: 24px;
+    font-family: sans-serif;
+}
+.product-container {
+    position: relative;
+    width: 300px; 
+    height: 400px; 
+  
+    background-size: cover; 
+    color: white; 
+}
+
+.product-cover img {
+    width: 345px;
+    height: 415px;
+    object-fit: cover;
+}
+
+.Sale {
+    position: absolute;
+    top: 10px;    
+    left: 10px; 
+}
+.Sale button{
+    width: 60px;
+    height: 27px;
+    border-radius: 10px;
+    background-color: red;
+    border: none;
+    color: #FFF;
+}
+
+.Vector {
+    position: absolute;
+    bottom: 35px;
+    left: 90px;
+}
+.Vector-m{
+    display: flex;
+    gap: 40px;
+}
+.English{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content:space-between ;
+}
+.main-English{
+    width: 347px;
+}
+.English p{
+    color: #23A6F0;
+    font-size: 27px;
+    font-family: sans-serif;
+}
+.small{
+    background-color: black;
+    width: 80px;
+    height: 30px;
+    border-radius: 12px;
+    display: flow;
+}
+.focus h5{
+    font-size: 30px;
+    color: #252B42;
+}
+.focus p{
+    color: #737373;
+    font-size: 24px
+}
+.Frame{
+    display: flex;
+    align-items: center;
+    gap: 20px
+}
+.Frame img{
+    width: 30px;
+    height: 30px;
+}
+.Frame h6{
+    font-size: 18px;
+    color: #737373;
+    font-family: sans-serif;
+}
+.edit{
+    display: flex;
+    gap: 25px;
+}
+.p{
+    color: #BDBDBD;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.meeting{
+    color: #40BB15;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.run{
+    display: flex;
+    align-items: baseline;
+    gap: 15px;
+}
+.Les{
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+.hr{
+    color: #737373;
+   font-size: 20px;
+}
+.more{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border: 1px solid #23A6F0;
+    width: 160px;
+    height: 44px;
+    padding: 10px;
+    border-radius: 14px;
+}
+.more h6{
+ color: #23A6F0;
+ font-size: 20px;
+ font-family: sans-serif;
+}
+.main-Practice{
+    width: 930px;
+    display: flex;
+    justify-content: flex-end;
+}
+.Practice{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 300px;
+    padding: 40px;
+}
+
+.see{
+    width: 180px;
+    border-radius: 110px;
+}
+.need{
+    color: #737373;
+    font-size: 28px;
+    font-family: sans-serif;
+}
+.Miles{
+    color: #252B42;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.Designer{
+    color: #737373;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+
+
+.Classical{
+    display: flow;
+    text-align: center;
+}
+.Featured{
+    color: #23A6F0;
+    font-size: 55px;
+    font-family: sans-serif;
+}
+.realms{
+    color:black;
+    font-size: 89px;
+}
+.input{
+    width: 1200px;
+    height: 69px;
+    border-right: none;
+    border: 1px solid #E6E6E6;
+}
+.Subscribe{
+    width: 135px;
+    height: 74px;
+    background: linear-gradient(0deg, #23A6F0, #23A6F0);
+    border: none;
+}
+
+
+
+
+.over{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    gap: 170px;
+    padding: 30px;
+    border: none;
+    background: #252B42;
+    /* width: 1828px; */
+    margin-top: 50px;
+    width: 98%;
+    height: 299px;
+}
+.Get{
+
+    font-size: 42px;
+    color: #FFB;
+    font-family: sans-serif;
+}
+.Touch{
+    color: #FFF;
+    font-size: 25px;
+    font-family: system-ui;
+
+}
+.dog{
+    display: flex;
+    gap: 55px;
+}
+.About{
+    color: #FFF;
+    display: grid;
+    font-size: 20px;
+    font-family: sans-serif;
+    gap: 8px;
+}
